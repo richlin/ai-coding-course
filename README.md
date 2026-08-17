@@ -12,7 +12,9 @@ Follow the modules in order. Later modules assume that you understand the concep
 ## 1. AI Coding System `Core`
 
 - [Harnesses, agents, models, environments, and tools](01-ai-coding-system/system-components.md)
-- [Model selection, effort, latency, and cost](01-ai-coding-system/model-selection.md)
+- [Model selection](01-ai-coding-system/model-selection.md)
+- [Reasoning effort](01-ai-coding-system/effort.md)
+- [Cost](01-ai-coding-system/cost.md)
 - [Permissions and tool execution](01-ai-coding-system/permissions-and-tools.md)
 
 ## 2. Constraints and Controls `Core`
