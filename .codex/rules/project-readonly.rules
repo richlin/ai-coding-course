@@ -1,0 +1,57 @@
+# Project-scoped permissions for routine repository inspection.
+#
+# Keep these patterns narrow. An `allow` rule runs the matching command outside
+# the sandbox without asking, and a project rule limits where the rule is loaded,
+# not which paths the command itself may access.
+
+prefix_rule(
+    pattern = ["pwd"],
+    decision = "allow",
+    justification = "Print the working directory to confirm project scope.",
+    match = ["pwd"],
+    not_match = ["printenv PWD"],
+)
+
+prefix_rule(
+    pattern = ["git", "status", "--short", "--"],
+    decision = "allow",
+    justification = "Inspect this repository's concise working-tree status.",
+    match = [
+        "git status --short --",
+        "git status --short -- 01-ai-coding-system/permissions-and-tools.md",
+    ],
+    not_match = [
+        "git status",
+        "git status --short",
+    ],
+)
+
+prefix_rule(
+    pattern = ["git", "diff", "--no-ext-diff", "--"],
+    decision = "allow",
+    justification = "Inspect repository changes without invoking external diff helpers.",
+    match = [
+        "git diff --no-ext-diff --",
+        "git diff --no-ext-diff -- 01-ai-coding-system/permissions-and-tools.md",
+    ],
+    not_match = [
+        "git diff",
+        "git diff --ext-diff --",
+        "git diff --no-ext-diff --output=/tmp/diff.txt",
+    ],
+)
+
+prefix_rule(
+    pattern = ["git", "diff", "--no-ext-diff", "--check", "--"],
+    decision = "allow",
+    justification = "Check repository changes for whitespace errors without invoking external diff helpers.",
+    match = [
+        "git diff --no-ext-diff --check --",
+        "git diff --no-ext-diff --check -- 01-ai-coding-system/permissions-and-tools.md",
+    ],
+    not_match = [
+        "git diff --check",
+        "git diff --no-ext-diff --check",
+        "git diff --no-ext-diff --check --output=/tmp/diff.txt",
+    ],
+)
