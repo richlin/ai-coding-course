@@ -1,0 +1,49 @@
+# Project-scoped permissions for approved repository inspection commands.
+#
+# An `allow` rule runs the matching command outside the sandbox without asking.
+# These rules intentionally allow every argument variant of `git status` and
+# `git diff` because all such commands are approved for this project.
+
+prefix_rule(
+    pattern = ["pwd"],
+    decision = "allow",
+    justification = "Print the working directory to confirm project scope.",
+    match = ["pwd"],
+)
+
+prefix_rule(
+    pattern = ["printenv", "PWD"],
+    decision = "allow",
+    justification = "Print the working directory environment variable.",
+    match = ["printenv PWD"],
+)
+
+prefix_rule(
+    pattern = ["git", "status"],
+    decision = "allow",
+    justification = "Inspect this repository's working-tree status.",
+    match = [
+        "git status",
+        "git status --short",
+        "git status --short --",
+        "git status --short -- 01-ai-coding-system/permissions-and-tools.md",
+    ],
+)
+
+prefix_rule(
+    pattern = ["git", "diff"],
+    decision = "allow",
+    justification = "Inspect repository changes using any approved diff options.",
+    match = [
+        "git diff",
+        "git diff --ext-diff --",
+        "git diff --no-ext-diff --output=/tmp/diff.txt",
+        "git diff --check",
+        "git diff --no-ext-diff --check",
+        "git diff --no-ext-diff --check --output=/tmp/diff.txt",
+        "git diff --no-ext-diff --",
+        "git diff --no-ext-diff -- 01-ai-coding-system/permissions-and-tools.md",
+        "git diff --no-ext-diff --check --",
+        "git diff --no-ext-diff --check -- 01-ai-coding-system/permissions-and-tools.md",
+    ],
+)

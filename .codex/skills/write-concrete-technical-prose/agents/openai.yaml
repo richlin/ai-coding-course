@@ -1,0 +1,4 @@
+interface:
+  display_name: "Concrete Technical Prose"
+  short_description: "Write clear, grounded technical articles"
+  default_prompt: "Use $write-concrete-technical-prose to draft or revise this technical article in a direct, concrete voice."
