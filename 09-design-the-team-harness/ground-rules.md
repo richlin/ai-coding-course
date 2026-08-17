@@ -37,7 +37,7 @@
 - Do not leave precedence between user, project, and task instructions ambiguous.
 - Do not keep rules with no observable effect.
 
-## Try It
+## Exercise
 
 1. Select one project instruction file and one active spec.
 2. Label each statement stable convention, task requirement, executable standard, or unnecessary.
@@ -45,7 +45,7 @@
 4. Identify conflicts and state precedence.
 5. Test a representative agent task with the cleaned inputs.
 
-## Expected Result
+Complete the exercise when:
 
 - Short project rules plus a bounded task spec with no duplicated ownership.
 - The agent follows shared standards and task criteria without repeated prompting.

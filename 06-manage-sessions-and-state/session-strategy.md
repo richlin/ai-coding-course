@@ -37,7 +37,7 @@
 - Do not hand off raw history without current status.
 - Do not delegate decisions lacking a defined owner.
 
-## Try It
+## Exercise
 
 1. Collect four transition scenarios from real or sample work.
 2. For each, identify whether continuity, recovery, transfer, or isolated delegation is needed.
@@ -45,7 +45,7 @@
 4. Write required input, expected output, and validation for the transition.
 5. Explain why each alternative is weaker.
 
-## Expected Result
+Complete the exercise when:
 
 - A decision table usable during future context transitions.
 - Every strategy is tied to a distinct coordination need.

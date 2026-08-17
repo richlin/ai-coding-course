@@ -53,7 +53,7 @@
 - Do not rely on prose such as “be careful with security” when a permission boundary or test can enforce the requirement.
 - Do not omit the verification command and then accept the agent's statement that the feature works.
 
-## Try It
+## Exercise
 
 1. Choose a feature in an existing repository that touches at least two files and has an observable result.
 2. Write the feature's goal, non-goals, and three acceptance criteria at the top of a new one-page brief.
@@ -65,7 +65,7 @@
 8. Give only this brief to a fresh agent and ask it to state its first hypothesis and next action without editing code.
 9. Review its answer. Remove unused context and add any missing fact that genuinely blocked the first decision.
 
-## Expected Result
+Complete the exercise when:
 
 - A one-page context brief containing:
 	- One bounded goal and explicit non-goals.

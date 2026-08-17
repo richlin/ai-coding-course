@@ -12,7 +12,6 @@ Follow the modules in order. Later modules assume that you understand the concep
 ## 1. AI Coding System `Core`
 
 - [Harnesses, agents, models, environments, and tools](01-ai-coding-system/system-components.md)
-- [The observe, decide, act, verify loop](01-ai-coding-system/agent-loop.md)
 - [Model selection, effort, latency, and cost](01-ai-coding-system/model-selection.md)
 - [Permissions and tool execution](01-ai-coding-system/permissions-and-tools.md)
 

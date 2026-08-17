@@ -37,7 +37,7 @@
 - Do not call deployment complete before observing runtime signals.
 - Do not rely on the agent's summary for release approval.
 
-## Try It
+## Exercise
 
 1. Trace one feature from local branch to production.
 2. List checks, artifacts, owners, and approvals at each stage.
@@ -45,7 +45,7 @@
 4. Verify every CI command can run or be understood locally.
 5. Simulate one failed release signal and execute the rollback procedure in a safe environment.
 
-## Expected Result
+Complete the exercise when:
 
 - A delivery map with no unowned gate or hidden production step.
 - Rollout and rollback have observable triggers and tested actions.

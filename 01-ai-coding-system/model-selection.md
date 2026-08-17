@@ -14,20 +14,15 @@
 - A powerful model is wasteful when a deterministic tool or smaller model can do the job.
 - Cheap output becomes expensive when engineers must repeatedly repair it.
 
-## Concrete Example
-
-- **Low risk:** Rename a private variable and run a focused test. Use a fast model with normal effort.
-- **Medium risk:** Add rate limiting by following an existing middleware pattern. Use a capable coding model with medium effort.
-- **High risk:** Design distributed limiting across services with abuse requirements. Use a stronger reasoning model, high effort, and human review.
-- A 10-second answer requiring 30 minutes of repair costs more than a 60-second answer that passes review immediately.
-
 ## Best Practices
 
 - Use lower-cost models for bounded, reversible, easily checked tasks.
 - Use stronger models for ambiguous, high-risk, or cross-system reasoning.
 - Increase effort only when the task benefits from deeper reasoning.
 - Match effort to uncertainty and consequence, not requested line count.
-- Compare total time to verified completion, including retries and review.
+- **Low risk tasks:** Rename a private variable and run a focused test. Use a fast model with low effort.
+- **Medium risk tasks:** Add rate limiting by following an existing middleware pattern. Use a capable coding model with medium effort.
+- **High risk tasks:** Design distributed limiting across services with abuse requirements. Use a stronger reasoning model, high or xhigh effort, and human review.
 
 ## Common Mistakes
 

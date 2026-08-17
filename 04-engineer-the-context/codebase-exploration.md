@@ -36,7 +36,7 @@
 - Do not read implementation without checking neighboring tests.
 - Do not keep exploring after one small edit and check can answer the remaining question.
 
-## Try It
+## Exercise
 
 1. Choose a visible behavior, error, route, or failing test.
 2. Search its exact text or symbol and select the closest entry point.
@@ -45,7 +45,7 @@
 5. Write a one-sentence hypothesis naming the controlling code and expected check.
 6. Confirm it with the cheapest read-only or executable action.
 
-## Expected Result
+Complete the exercise when:
 
 - A short path from symptom to behavior owner to verifying test.
 - Enough evidence to justify one focused edit without a repository-wide map.

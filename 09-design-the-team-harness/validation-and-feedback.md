@@ -37,7 +37,7 @@
 - Do not collect sensitive prompts or code without policy and controls.
 - Do not add a metric with no threshold or response.
 
-## Try It
+## Exercise
 
 1. Choose one recurring agent workflow.
 2. Define success, failure, cost, latency, review, and runtime signals.
@@ -46,7 +46,7 @@
 5. Change one harness control and compare outcomes.
 6. Automate one low-risk response to a clear signal.
 
-## Expected Result
+Complete the exercise when:
 
 - A small signal-to-decision table rather than a log wish list.
 - Evidence that one harness change improves or fails to improve outcomes.

@@ -36,7 +36,7 @@
 - Do not ignore repeated searches or forgotten decisions at low reported usage.
 - Do not optimize token count while removing decision-critical evidence.
 
-## Try It
+## Exercise
 
 1. Start a task with a written goal and three constraints.
 2. Record context usage after initial research, after the first edit, and after test output.
@@ -45,7 +45,7 @@
 5. Intervene using pruning, compaction, or a fresh session.
 6. Measure whether constraint recall and next-action quality improve.
 
-## Expected Result
+Complete the exercise when:
 
 - A task timeline connecting context pressure with observable behavior.
 - Personal intervention signals based on evidence, not one percentage threshold.

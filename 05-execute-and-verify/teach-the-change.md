@@ -36,7 +36,7 @@
 - Do not confuse a polished explanation with verified correctness.
 - Do not merge code you cannot explain at the level required to maintain it.
 
-## Try It
+## Exercise
 
 1. Choose a completed change you did not write manually.
 2. Ask the agent to explain user behavior, controlling path, design choice, verification, and residual risk.
@@ -45,7 +45,7 @@
 5. Explain the change to a peer or in your own notes without using the agent's text.
 6. Resolve any claim you cannot substantiate before approval.
 
-## Expected Result
+Complete the exercise when:
 
 - A concise explanation grounded in actual code and tests.
 - You can describe why the change works, what evidence supports it, and what risk remains.

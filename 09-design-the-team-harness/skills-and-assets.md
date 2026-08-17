@@ -37,7 +37,7 @@
 - Do not let templates accumulate optional sections nobody uses.
 - Do not leave reusable assets untested after workflow changes.
 
-## Try It
+## Exercise
 
 1. Select a workflow completed at least three times.
 2. Separate fixed data, deterministic operations, judgment steps, and approval decisions.
@@ -46,7 +46,7 @@
 5. Test it on normal, edge, and unrelated cases.
 6. Record whether it reduces errors or review effort.
 
-## Expected Result
+Complete the exercise when:
 
 - One tested asset with a clear responsibility and owner.
 - Evidence it improves a real workflow rather than adding ceremony.

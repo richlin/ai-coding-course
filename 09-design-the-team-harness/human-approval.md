@@ -37,7 +37,7 @@
 - Do not let the implementing agent approve its own accepted risk.
 - Do not treat notification as approval.
 
-## Try It
+## Exercise
 
 1. List ten actions from local edit through production rollout.
 2. Score impact, reversibility, sensitivity, and confidence.
@@ -45,7 +45,7 @@
 4. Define the evidence and owner required for every approval.
 5. Simulate one request and reject it if scope or rollback is unclear.
 
-## Expected Result
+Complete the exercise when:
 
 - A risk-based approval matrix with named owners.
 - Approval requests contain enough evidence for an accountable decision.

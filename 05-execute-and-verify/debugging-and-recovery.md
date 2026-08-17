@@ -38,7 +38,7 @@
 - Do not confuse correlation with the code path causing the defect.
 - Do not declare recovery until the original reproduction and regression checks pass.
 
-## Try It
+## Exercise
 
 1. Choose a reproducible failure and save exact setup, input, command, and output.
 2. Ask the agent for three plausible causes and the cheapest check distinguishing them.
@@ -47,7 +47,7 @@
 5. Add a failing regression test, make the smallest fix, and rerun the original reproduction.
 6. Remove any speculative edits that did not contribute to the fix.
 
-## Expected Result
+Complete the exercise when:
 
 - A cause-and-evidence chain that another engineer can reproduce.
 - A minimal fix plus a regression test that fails without it.

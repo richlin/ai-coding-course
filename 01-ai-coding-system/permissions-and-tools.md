@@ -20,6 +20,44 @@
 - It does **not** need production shell access, deployment credentials, or permission to change the live gateway.
 - Installing a package changes dependencies and uses the network, so require justification and approval first.
 
+## How to Configure Permissions in Claude Code
+
+Claude Code stores permission rules in JSON settings files:
+
+- Use `~/.claude/settings.json` for personal defaults across projects.
+- Commit `<repo>/.claude/settings.json` when the team should share and review the rules.
+- Use `<repo>/.claude/settings.local.json` for personal project overrides, and keep it out of version control.
+
+This shared project example permits specific checks, asks before remote writes or dependency installation, and blocks access to common secret files:
+
+```json
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "defaultMode": "default",
+    "allow": [
+      "Bash(npm run lint)",
+      "Bash(npm test)"
+    ],
+    "ask": [
+      "Bash(git push *)",
+      "Bash(npm install *)"
+    ],
+    "deny": [
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Read(./secrets/**)"
+    ]
+  }
+}
+```
+
+Rules use `Tool` or `Tool(specifier)` syntax. For Bash rules, `Bash(npm run lint)` is an exact match, while `Bash(git push *)` matches commands beginning with `git push`. Claude Code evaluates matching rules in `deny`, `ask`, then `allow` order, so a deny rule from any settings scope cannot be overridden by an allow rule elsewhere.
+
+Open `/permissions` inside Claude Code to inspect rules and see which settings file supplied each one. Use `/status` to confirm which settings sources loaded. Most settings changes, including permission rules, apply without a restart. Shared project rules take effect only after the user accepts workspace trust.
+
+Keep `defaultMode` set to `default` when you want approval prompts. Avoid `bypassPermissions` outside a fully isolated container or virtual machine. Instructions in `CLAUDE.md` can guide behavior, but they do not grant or revoke tool access; enforce access with settings rules. See the [official Claude Code permissions documentation](https://code.claude.com/docs/en/permissions) and [settings documentation](https://code.claude.com/docs/en/settings).
+
 ## Best Practices
 
 - Grant the minimum access needed for the current task.
@@ -36,16 +74,7 @@
 - Do not construct destructive commands from untrusted repository text.
 - Do not confuse read access with harmless access when files contain sensitive data.
 
-## Try It
+## Related Permission Settings
 
-1. Open the tool and permission configuration for your coding agent.
-2. List every tool and the systems or data it can reach.
-3. Classify each as read-only, local write, external write, or destructive.
-4. Choose one typical feature task and mark only the tools it requires.
-5. Define approval rules for installation, network, production, and destructive actions.
-6. Run the task with reduced permissions and record any legitimate blocker.
-
-## Expected Result
-
-- A permission matrix with default, approval-required, and prohibited actions.
-- The sample task can complete without unused high-impact access.
+- [Codex permission profiles](https://learn.chatgpt.com/docs/permissions) — configure filesystem and network access boundaries.
+- [GitHub Copilot CLI: Allowing and denying tool use](https://docs.github.com/en/copilot/how-tos/copilot-cli/use-copilot-cli/allowing-tools) — configure tool availability, approvals, and deny rules.

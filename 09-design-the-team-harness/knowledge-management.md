@@ -38,7 +38,7 @@
 - Do not retrieve broad documents when a symbol or section answers the question.
 - Do not persist customer or secret data as reusable context.
 
-## Try It
+## Exercise
 
 1. Choose one recurring workflow and list ten facts agents need.
 2. Map each fact to source, owner, lifetime, sensitivity, and retrieval method.
@@ -46,7 +46,7 @@
 4. Add a freshness rule for external or manually maintained facts.
 5. Test three realistic retrieval questions with a fresh agent.
 
-## Expected Result
+Complete the exercise when:
 
 - A knowledge map with authority, ownership, and retrieval paths.
 - The agent finds current facts without loading an entire knowledge base.

@@ -35,7 +35,7 @@
 - Do not omit negative cases for permissions and untrusted input.
 - Do not choose a broad full-suite command when a focused check can guide the first increment.
 
-## Try It
+## Exercise
 
 1. Choose one bounded feature.
 2. Write one happy-path, one boundary, one authorization or error, and one regression criterion.
@@ -44,7 +44,7 @@
 5. Ask a fresh agent to identify any term that cannot be measured.
 6. Replace vague terms and run any existing goal command.
 
-## Expected Result
+Complete the exercise when:
 
 - Four criteria that two reviewers would evaluate the same way.
 - Every criterion has a named verification method.

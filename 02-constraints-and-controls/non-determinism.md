@@ -34,7 +34,7 @@
 - Do not treat one passing sample as proof of reliability.
 - Do not force identical formatting when only behavior matters.
 
-## Try It
+## Exercise
 
 1. Choose a bounded task with at least three objective acceptance criteria.
 2. Reset the repository to the same state before every run.
@@ -43,7 +43,7 @@
 5. Classify variation as harmless, beneficial, or acceptance-breaking.
 6. Add one check for the most important unacceptable variation.
 
-## Expected Result
+Complete the exercise when:
 
 - A three-run comparison showing what varies and what remains stable.
 - Acceptance checks that reject bad outcomes without requiring identical code.

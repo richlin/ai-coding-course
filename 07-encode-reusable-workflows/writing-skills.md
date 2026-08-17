@@ -37,7 +37,7 @@
 - Do not trust a skill because its prose sounds thorough.
 - Do not let a skill silently change code when its role is review.
 
-## Try It
+## Exercise
 
 1. Choose a workflow repeated at least three times.
 2. Write trigger, non-trigger, inputs, ordered steps, output, stop conditions, and verification.
@@ -46,7 +46,7 @@
 5. Compare output with a human-created rubric.
 6. Revise only instructions tied to observed failures.
 
-## Expected Result
+Complete the exercise when:
 
 - A focused skill that activates correctly and produces a reviewable artifact.
 - Test evidence covers normal, edge, and non-triggering behavior.

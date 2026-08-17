@@ -37,7 +37,7 @@
 - Do not preserve ineffective controls because they appear rigorous.
 - Do not optimize only failed tasks; study efficient successes too.
 
-## Try It
+## Exercise
 
 1. Collect three recent tasks or one high-impact incident.
 2. Identify repeated failure, first observable cause, and current missed detection point.
@@ -46,7 +46,7 @@
 5. Apply it to representative future tasks.
 6. Keep, revise, or remove it based on evidence.
 
-## Expected Result
+Complete the exercise when:
 
 - A closed improvement record from evidence to control to measured outcome.
 - The harness becomes simpler or more reliable, not merely larger.

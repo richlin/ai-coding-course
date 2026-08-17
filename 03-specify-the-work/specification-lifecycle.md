@@ -37,7 +37,7 @@
 - Do not keep multiple active specs for the same behavior.
 - Do not treat a merged spec as automatically correct forever.
 
-## Try It
+## Exercise
 
 1. Select a spec for shipped or substantially changed work.
 2. Compare its requirements and examples with current tests and behavior.
@@ -45,7 +45,7 @@
 4. Update current behavior, link superseding decisions, and archive temporary history.
 5. Ask the code owner to confirm the source of truth for remaining details.
 
-## Expected Result
+Complete the exercise when:
 
 - One clearly active specification with no contradictory successor.
 - Durable rationale remains discoverable while stale instructions no longer guide agents.

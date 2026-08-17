@@ -36,7 +36,7 @@
 - Do not assume a popular tutorial reflects secure defaults.
 - Do not paste copyrighted documentation into project files when a concise decision and link suffice.
 
-## Try It
+## Exercise
 
 1. Choose one version-sensitive API or configuration in your project.
 2. Identify its installed version from the lockfile or tool output.
@@ -45,7 +45,7 @@
 5. List every difference between recollection and the source.
 6. Update the implementation decision, test, or documentation with the verified conclusion and link.
 
-## Expected Result
+Complete the exercise when:
 
 - A source note naming version, authoritative URL, verified behavior, and project consequence.
 - At least one automated check where the documented behavior matters to correctness.

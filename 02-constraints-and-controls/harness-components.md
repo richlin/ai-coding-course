@@ -39,7 +39,7 @@
 - Do not add memory without deciding what may persist and who corrects it.
 - Do not call a harness reliable when it cannot verify output or stop safely.
 
-## Try It
+## Exercise
 
 1. Choose one recurring workflow, such as fixing a bug or adding an endpoint.
 2. Draw boxes for rules/specs, context/knowledge, tools, reusable assets, permissions/HITL, and validation/feedback.
@@ -47,7 +47,7 @@
 4. Trace one recent failure to the component that should have prevented or detected it.
 5. Add one small improvement and define how to test it on the next task.
 
-## Expected Result
+Complete the exercise when:
 
 - A complete harness map for one real workflow, including ownership and gaps.
 - One evidence-driven improvement rather than a generic tool wish list.

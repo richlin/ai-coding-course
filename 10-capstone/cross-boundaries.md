@@ -37,7 +37,7 @@
 - Do not delegate a policy decision with no human owner.
 - Do not allow parallel agents to edit the same files.
 
-## Try It
+## Exercise
 
 1. Choose compact, fresh session, handoff, or subagent for a real capstone boundary.
 2. Explain why that strategy fits continuity, recovery, transfer, or isolation.
@@ -46,7 +46,7 @@
 5. Require a state summary and read-only validation before edits.
 6. Record missing or misleading information and revise the artifact.
 
-## Expected Result
+Complete the exercise when:
 
 - The receiver takes a correct next action without hidden history.
 - The transition artifact is portable, concise, and grounded in repository evidence.

@@ -36,7 +36,7 @@
 - Do not write many tests before making the first one pass.
 - Do not change the test merely to accept incorrect implementation output.
 
-## Try It
+## Exercise
 
 1. Select one missing behavior with a small public test surface.
 2. Write one test name that states input and expected outcome.
@@ -45,7 +45,7 @@
 5. Run the focused test and inspect the diff.
 6. Refactor only if clarity improves, then rerun the same test and relevant suite.
 
-## Expected Result
+Complete the exercise when:
 
 - Captured red and green outputs showing the test detects the behavior change.
 - A focused implementation with regression protection, not a test tailored to existing code.

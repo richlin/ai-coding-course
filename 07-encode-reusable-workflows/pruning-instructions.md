@@ -36,7 +36,7 @@
 - Do not leave obsolete command examples.
 - Do not prune rationale still needed for human judgment.
 
-## Try It
+## Exercise
 
 1. Collect all instruction sources affecting one repository.
 2. Group statements by topic and highlight conflicts or duplicates.
@@ -44,7 +44,7 @@
 4. Apply one cleanup and run a representative task before and after it.
 5. Confirm required behavior remains and context becomes smaller.
 
-## Expected Result
+Complete the exercise when:
 
 - A shorter instruction set with explicit precedence and current commands.
 - Removed guidance causes no loss of required behavior.

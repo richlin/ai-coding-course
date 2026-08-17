@@ -37,7 +37,7 @@
 - Do not rely on a private user rule for team-critical behavior.
 - Do not leave generated-file or migration boundaries implicit.
 
-## Try It
+## Exercise
 
 1. List ten facts an agent needs for a normal repository change.
 2. Classify each as rule, spec, test, ADR/documentation, ticket, or temporary context.
@@ -46,7 +46,7 @@
 5. Run any executable check associated with that fact.
 6. Ask a fresh agent where it would look for the same information.
 
-## Expected Result
+Complete the exercise when:
 
 - A source-of-truth map with no critical convention dependent on private knowledge.
 - At least one rule is shortened, automated, relocated, or removed.
