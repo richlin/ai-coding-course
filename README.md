@@ -12,6 +12,7 @@ Follow the modules in order. Later modules assume that you understand the concep
 ## 1. AI Coding System `Core`
 
 - [Harnesses, agents, models, environments, and tools](01-ai-coding-system/system-components.md)
+- [`AGENTS.md`: ground rules for working with an agent](01-ai-coding-system/ground-rules.md)
 - [Model selection](01-ai-coding-system/model-selection.md)
 - [Reasoning effort](01-ai-coding-system/effort.md)
 - [Cost](01-ai-coding-system/cost.md)
@@ -23,8 +24,7 @@ Follow the modules in order. Later modules assume that you understand the concep
 - [Statelessness](02-constraints-and-controls/statelessness.md)
 - [Context degradation](02-constraints-and-controls/context-degradation.md)
 - [Non-determinism](02-constraints-and-controls/non-determinism.md)
-- [How harness controls mitigate constraints](02-constraints-and-controls/constraint-mitigations.md)
-- [Overview of the six harness components](02-constraints-and-controls/harness-components.md)
+- [Overview of the six harness components](harness-components.md)
 
 ## 3. Specify the Work `Core`
 
@@ -83,7 +83,7 @@ Follow the modules in order. Later modules assume that you understand the concep
 
 ## 9. Design the Team Harness `Advanced`
 
-- [Ground rules and specifications](09-design-the-team-harness/ground-rules.md)
+- [Scaling ground rules and specifications across a team](09-design-the-team-harness/ground-rules.md)
 - [Context and knowledge management](09-design-the-team-harness/knowledge-management.md)
 - [Tools and integrations](09-design-the-team-harness/tools-and-integrations.md)
 - [Skills and reusable assets](09-design-the-team-harness/skills-and-assets.md)

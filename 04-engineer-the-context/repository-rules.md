@@ -1,8 +1,10 @@
 # Repository Rules and Durable Artifacts
 
+The [`AGENTS.md` introduction](../01-ai-coding-system/ground-rules.md) explains how a harness loads a repository's standing brief. This chapter places that brief alongside the other durable artifacts an agent needs while it works.
+
 ## What It Means
 
-- Repository rules describe project-specific commands, conventions, boundaries, and workflows.
+- Repository rules, often stored in `AGENTS.md` or a harness-specific equivalent, describe project-specific commands, conventions, boundaries, and workflows.
 - Durable artifacts include specs, tests, tickets, architecture decisions, and handoffs stored outside a chat.
 - These artifacts give future humans and agents a shared source of truth.
 
