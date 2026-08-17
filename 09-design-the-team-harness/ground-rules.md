@@ -1,8 +1,10 @@
-# Ground Rules and Specifications
+# Scaling Ground Rules and Specifications Across a Team
+
+The [Core introduction to `AGENTS.md`](../01-ai-coding-system/ground-rules.md) explains how an individual engineer establishes working conventions with an agent. This chapter scales that practice across a team, where instruction files need shared ownership, consistent scope, and enforceable boundaries.
 
 ## What It Means
 
-- Ground rules define stable project conventions, safety boundaries, and required workflows.
+- Ground rules, commonly stored in `AGENTS.md` or a harness-specific equivalent, define stable project conventions, safety boundaries, and required workflows.
 - Specifications define the desired outcome and constraints for a particular change.
 - Rules answer “how we work here”; specs answer “what this task must achieve.”
 
