@@ -41,7 +41,7 @@
 - Do not duplicate the same workflow in a command, skill, and script.
 - Do not add automation without visible failure output.
 
-## Try It
+## Exercise
 
 1. Collect five repeated instructions from reviews or agent sessions.
 2. Classify each as one-off prompt, stable rule, judgment workflow, named command, event hook, or deterministic script.
@@ -49,7 +49,7 @@
 4. Convert one objective instruction into an executable check.
 5. Test that check on one passing and one failing example.
 
-## Expected Result
+Complete the exercise when:
 
 - An asset-selection table with no unnecessary abstraction.
 - One repeated objective standard is now enforced automatically.

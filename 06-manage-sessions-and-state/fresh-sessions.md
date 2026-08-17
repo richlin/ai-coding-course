@@ -36,7 +36,7 @@
 - Do not omit the current branch, diff, or failed check.
 - Do not assume “fresh” means free of repository instructions or durable decisions.
 
-## Try It
+## Exercise
 
 1. Choose an active task at a phase boundary or with degraded reasoning.
 2. Save code and write goal, constraints, decisions, evidence, open questions, and next action.
@@ -45,7 +45,7 @@
 5. Ask it to restate state and run one read-only check before editing.
 6. Compare its understanding with the saved state.
 
-## Expected Result
+Complete the exercise when:
 
 - The fresh session resumes from verified state without replaying history.
 - Any missing information is identified before code changes.

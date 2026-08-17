@@ -36,7 +36,7 @@
 - Do not retain successful command output after recording the result.
 - Do not equate available tokens with reliable attention.
 
-## Try It
+## Exercise
 
 1. Inspect a session with substantial tool use.
 2. Inventory instructions, messages, files, and tool output occupying context.
@@ -44,7 +44,7 @@
 4. Estimate the minimum brief a fresh agent needs for the next action.
 5. Start fresh with that brief and compare its summary to the original state.
 
-## Expected Result
+Complete the exercise when:
 
 - A context inventory and focused continuation brief.
 - The fresh agent preserves constraints and evidence without raw history.

@@ -34,7 +34,7 @@
 - Do not compact a confused session and expect unsupported conclusions to become correct.
 - Do not wait for the context window to be completely full before intervening.
 
-## Try It
+## Exercise
 
 1. Select a long session containing at least one changed decision.
 2. Label its content `active`, `durable reference`, `superseded`, `raw evidence`, or `noise`.
@@ -42,7 +42,7 @@
 4. Ask separate fresh sessions to propose the next action from the full history and focused brief.
 5. Compare constraint recall, correctness, and time to a useful action.
 
-## Expected Result
+Complete the exercise when:
 
 - A smaller brief preserving every decision-relevant fact.
 - Evidence showing whether focused context improved the next decision.

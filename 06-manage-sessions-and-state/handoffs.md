@@ -36,7 +36,7 @@
 - Do not hide blockers or risk to make progress look cleaner.
 - Do not make the receiver rediscover links already known.
 
-## Try It
+## Exercise
 
 1. Pause a task after one verified increment.
 2. Write sections for objective, current state, decisions, changed files, checks, unresolved issues, and next action.
@@ -45,7 +45,7 @@
 5. Ask it to identify missing information and propose the next check.
 6. Revise only where the receiver is wrong or blocked.
 
-## Expected Result
+Complete the exercise when:
 
 - A portable handoff that enables a correct next action.
 - The receiver does not need the original chat transcript.

@@ -36,7 +36,7 @@
 - Do not accept flaky checks as standards.
 - Do not weaken a check because generated code fails it.
 
-## Try It
+## Exercise
 
 1. Find one objective “must” or “never” rule in project documentation.
 2. Collect one conforming and one violating example.
@@ -45,7 +45,7 @@
 5. Add it to the normal local and CI workflow.
 6. Shorten the prose to rationale and remediation.
 
-## Expected Result
+Complete the exercise when:
 
 - One objective standard produces a reliable pass/fail signal.
 - Engineers and agents can reproduce the same result locally.

@@ -36,7 +36,7 @@
 - Do not add approval gates without showing the evidence needed to decide.
 - Do not keep controls after the workflow they govern changes.
 
-## Try It
+## Exercise
 
 1. Select one failed, slow, or heavily corrected agent task.
 2. Write the first observable failure rather than the final symptom.
@@ -45,7 +45,7 @@
 5. Choose the smallest control that catches the issue early.
 6. Re-run or simulate the task and record whether the control changes the outcome.
 
-## Expected Result
+Complete the exercise when:
 
 - A trace from failure to constraint to control to evidence.
 - One validated control with an owner and review condition.

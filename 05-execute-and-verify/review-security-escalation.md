@@ -37,7 +37,7 @@
 - Do not let the implementing agent accept security or policy risk.
 - Do not escalate without a clear question and supporting evidence.
 
-## Try It
+## Exercise
 
 1. Select an agent-generated diff that handles input, permissions, or data.
 2. Compare it with the spec and list changed trust boundaries.
@@ -46,7 +46,7 @@
 5. For each finding, choose fix, test, accept, or escalate and name the owner.
 6. Write one escalation containing evidence, options, recommendation, and requested decision.
 
-## Expected Result
+Complete the exercise when:
 
 - A review report ordered by risk with concrete file or behavior evidence.
 - Human-owned decisions are explicit and not silently made by the agent.

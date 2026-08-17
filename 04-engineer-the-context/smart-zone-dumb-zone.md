@@ -35,7 +35,7 @@
 - Do not compact unsupported assumptions into the next context.
 - Do not restart without a verified state summary.
 
-## Try It
+## Exercise
 
 1. Review two long sessions: one effective and one degraded.
 2. Identify at least five observable differences in search, recall, planning, editing, or verification.
@@ -43,7 +43,7 @@
 4. Pair each with `prune`, `compact`, `fresh session`, or `handoff` and explain why.
 5. Apply the rule during the next long task and record the result.
 
-## Expected Result
+Complete the exercise when:
 
 - A harness-specific intervention checklist with observable signals.
 - A recovery action that preserves verified state and improves the next decision.

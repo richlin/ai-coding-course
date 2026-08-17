@@ -36,7 +36,7 @@
 - Do not remove constraints after they become familiar.
 - Do not keep both an old and current plan active.
 
-## Try It
+## Exercise
 
 1. Select a session with at least 20 interactions or substantial tool output.
 2. Create `Keep`, `Summarize`, `Externalize`, and `Remove` lists.
@@ -45,7 +45,7 @@
 5. Ask it to explain the current hypothesis and reproduce the latest failure.
 6. Restore only information whose absence materially blocks the task.
 
-## Expected Result
+Complete the exercise when:
 
 - A brief significantly smaller than the original context.
 - The fresh session can reproduce the failure and continue without reviving rejected work.

@@ -37,7 +37,7 @@
 - Do not hide tool failures behind generic messages.
 - Do not add an integration without ownership and credential rotation.
 
-## Try It
+## Exercise
 
 1. Inventory every tool available for one workflow.
 2. Record purpose, input, output, data reached, permission level, owner, and failure signal.
@@ -45,7 +45,7 @@
 4. Separate read from write operations and add approvals where needed.
 5. Run one success and one controlled failure case per critical tool.
 
-## Expected Result
+Complete the exercise when:
 
 - A minimal tool catalog with clear permissions and diagnostics.
 - High-impact writes require explicit evidence and approval.

@@ -37,7 +37,7 @@
 - Do not let private preference override project rules.
 - Do not assume automatically captured memory is accurate forever.
 
-## Try It
+## Exercise
 
 1. Collect ten facts from an active project and session.
 2. Classify each as code, test, spec, ticket, ADR/docs, project rule, user memory, or temporary context.
@@ -45,7 +45,7 @@
 4. Move one misplaced fact to its proper source of truth.
 5. Delete or correct one stale memory or duplicate.
 
-## Expected Result
+Complete the exercise when:
 
 - A state-location table with ownership and lifetime.
 - No critical shared behavior depends only on chat or private memory.

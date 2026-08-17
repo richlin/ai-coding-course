@@ -37,7 +37,7 @@
 - Do not let the agent approve a product or risk tradeoff owned by a human.
 - Do not keep executing old tickets after the controlling spec changes.
 
-## Try It
+## Exercise
 
 1. Choose a sample or active spec with at least three assumptions.
 2. Introduce or discover evidence that invalidates one important assumption.
@@ -46,7 +46,7 @@
 5. Update the spec and task list only after the owner approves the new destination.
 6. Re-evaluate completed work against the revised criteria.
 
-## Expected Result
+Complete the exercise when:
 
 - A visible, approved destination change with an evidence trail.
 - No active ticket or acceptance criterion still points to the superseded plan.

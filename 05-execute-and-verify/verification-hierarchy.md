@@ -41,7 +41,7 @@
 - Do not skip runtime behavior for UI, integration, or environment-sensitive changes.
 - Do not ignore a suspicious diff because automation passes.
 
-## Try It
+## Exercise
 
 1. Choose one recent change and list its acceptance criteria and risks.
 2. Inventory available unit, integration, end-to-end, type, lint, build, runtime, and review checks.
@@ -50,7 +50,7 @@
 5. Run the sequence and record any criterion with no supporting evidence.
 6. Add the smallest missing check.
 
-## Expected Result
+Complete the exercise when:
 
 - A verification matrix showing why each command or observation exists.
 - Every important acceptance criterion is supported by evidence at an appropriate layer.

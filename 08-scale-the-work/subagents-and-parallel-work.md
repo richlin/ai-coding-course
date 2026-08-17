@@ -37,7 +37,7 @@
 - Do not parallelize dependent tasks for the appearance of speed.
 - Do not lose integration ownership among several agents.
 
-## Try It
+## Exercise
 
 1. Choose a feature with research, implementation, and review needs.
 2. Define one bounded assignment per role with inputs, non-goals, output, and verification.
@@ -46,7 +46,7 @@
 5. Run or simulate the assignments and collect artifacts.
 6. Have the integration owner inspect and combine results.
 
-## Expected Result
+Complete the exercise when:
 
 - Delegation briefs that produce compatible, reviewable artifacts.
 - Parallelism reduces elapsed time without conflicting edits or decisions.

@@ -39,7 +39,7 @@
 - Do not skip direct runtime checks after unit success.
 - Do not claim completion while a criterion lacks evidence.
 
-## Try It
+## Exercise
 
 1. Research the controlling service, routes, data relationships, and neighboring tests.
 2. Write an ordered increment plan with one behavior, check, and rollback per step.
@@ -49,7 +49,7 @@
 6. Run required broad checks, exercise the user flow, and map results to every criterion.
 7. Inspect the final diff for scope, security, and unintended data changes.
 
-## Expected Result
+Complete the exercise when:
 
 - A complete feature delivered through at least two independently verified increments.
 - An evidence table mapping every acceptance criterion to a command or observation.

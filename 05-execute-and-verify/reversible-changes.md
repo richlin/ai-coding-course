@@ -37,7 +37,7 @@
 - Do not remove old data or schema before new readers are compatible.
 - Do not checkpoint failing or unreviewed work as known-good.
 
-## Try It
+## Exercise
 
 1. Choose a task currently described as one large change.
 2. Split it into at least three increments, each with one behavior or risk reduction.
@@ -46,7 +46,7 @@
 5. Implement only the first increment and inspect its diff.
 6. Revert it in a temporary branch or explain why the rollback is incomplete.
 
-## Expected Result
+Complete the exercise when:
 
 - An increment plan with verification and rollback for every step.
 - The first increment can be reviewed and reversed without affecting unrelated work.

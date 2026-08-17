@@ -36,7 +36,7 @@
 - Do not omit integration behavior from criteria.
 - Do not size tickets solely by estimated coding time.
 
-## Try It
+## Exercise
 
 1. Select a feature currently split by technical layer.
 2. Identify two or three user-visible outcomes.
@@ -45,7 +45,7 @@
 5. Confirm each ticket leaves the system usable.
 6. Ask a reviewer whether any ticket can be split without losing a coherent outcome.
 
-## Expected Result
+Complete the exercise when:
 
 - Vertical tickets independently demonstrating useful behavior.
 - No ticket waits for all other layers before it can be verified.

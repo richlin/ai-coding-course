@@ -37,7 +37,7 @@
 - Do not mark a risk accepted without an accountable human.
 - Do not hand off without exact verification state.
 
-## Try It
+## Exercise
 
 1. Give a peer or fresh agent the spec, repository, and diff without implementation chat.
 2. Request severity-ordered correctness, security, regression, complexity, and test-gap findings.
@@ -46,7 +46,7 @@
 5. Write a final handoff with delivered behavior, decisions, artifacts, checks, rollout, residual risks, and owners.
 6. Ask the receiver to state whether it is ready to merge or ship and why.
 
-## Expected Result
+Complete the exercise when:
 
 - An independent review with evidence and resolved disposition.
 - A handoff enabling an accountable engineer to make the next delivery decision.

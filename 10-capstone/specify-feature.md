@@ -37,7 +37,7 @@
 - Do not prescribe architecture before codebase research.
 - Do not start while blocking questions remain ownerless.
 
-## Try It
+## Exercise
 
 1. Select a feature touching at least two files and one meaningful boundary.
 2. Write context, intent, users, assumptions, constraints, non-goals, examples, criteria, and open questions.
@@ -46,7 +46,7 @@
 5. Ask a peer or fresh agent to plan from the spec and list ambiguities.
 6. Resolve blocking questions with the correct owner and revise the spec.
 
-## Expected Result
+Complete the exercise when:
 
 - A reviewable feature spec with no silent policy decision.
 - Every acceptance criterion has observable evidence and an owner where judgment remains.

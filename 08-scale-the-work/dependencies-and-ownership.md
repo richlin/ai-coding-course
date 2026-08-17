@@ -37,7 +37,7 @@
 - Do not merge consumers before required migration compatibility exists.
 - Do not confuse task completion with integrated feature completion.
 
-## Try It
+## Exercise
 
 1. Choose a feature with at least three tickets.
 2. Draw nodes for contracts, migrations, implementations, and end-to-end checks.
@@ -46,7 +46,7 @@
 5. Identify safe parallel branches and the earliest integration point.
 6. Resolve any cycle or ownerless decision.
 
-## Expected Result
+Complete the exercise when:
 
 - An acyclic dependency and ownership map.
 - Parallel work begins only after shared assumptions become explicit contracts.

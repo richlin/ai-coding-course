@@ -37,7 +37,7 @@
 - Do not write “out of scope” without naming the tempting adjacent behavior.
 - Do not allow the agent to expand a small feature into platform work.
 
-## Try It
+## Exercise
 
 1. Choose a vague request from your backlog.
 2. Identify the user and the decision or task the feature supports.
@@ -46,7 +46,7 @@
 5. Ask a peer or fresh agent to name two plausible interpretations still allowed by the boundary.
 6. Revise only where those interpretations would cause incorrect work.
 
-## Expected Result
+Complete the exercise when:
 
 - A one-page task boundary that prevents major scope drift.
 - Every unresolved assumption has an owner or next check.

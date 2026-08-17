@@ -6,6 +6,7 @@
 - **Plan:** Choose a small change and the check that can disprove it.
 - **Implement:** Make the smallest complete edit that tests the plan.
 - **Verify:** Run the focused check and update the plan from the result.
+- This is the practical form of an agent's operating cycle: observe the current state, decide on the next useful action, act, and update the plan from verification evidence.
 
 ## Why It Matters
 
@@ -38,7 +39,7 @@
 - Do not add unrelated cleanup during the implementation step.
 - Do not broaden tests before the focused check passes.
 
-## Try It
+## Exercise
 
 1. Choose a reproducible defect with a focused test surface.
 2. Record reproduction, suspected owner, and one falsifiable hypothesis.
@@ -47,7 +48,7 @@
 5. Run the check and update the hypothesis from actual output.
 6. Repeat until the behavior passes, then run broader relevant checks.
 
-## Expected Result
+Complete the exercise when:
 
 - A short loop log connecting every edit to evidence.
 - The final change solves the reproduced defect without unrelated modifications.

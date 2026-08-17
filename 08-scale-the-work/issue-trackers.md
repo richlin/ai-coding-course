@@ -36,7 +36,7 @@
 - Do not duplicate entire specs in every child ticket.
 - Do not mark implementation complete before integration evidence exists.
 
-## Try It
+## Exercise
 
 1. Choose a feature requiring at least three slices.
 2. Create a parent issue with outcome, non-goals, global criteria, and risks.
@@ -45,7 +45,7 @@
 5. Ask a fresh agent which ticket is unblocked and why.
 6. Correct any ambiguity in status or dependency fields.
 
-## Expected Result
+Complete the exercise when:
 
 - A tracker where another engineer can identify current state and next work.
 - Every completed ticket links reviewable evidence.

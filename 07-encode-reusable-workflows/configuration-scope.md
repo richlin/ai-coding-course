@@ -36,7 +36,7 @@
 - Do not repeat project rules in every task prompt.
 - Do not let a broad user rule override repository-specific constraints.
 
-## Try It
+## Exercise
 
 1. Gather ten instructions from user configuration, repository files, and recent prompts.
 2. Label each user, project, task, or unnecessary.
@@ -44,7 +44,7 @@
 4. Move one instruction to the correct scope.
 5. Test from a fresh session with and without project context.
 
-## Expected Result
+Complete the exercise when:
 
 - A scoped configuration map with explicit authority.
 - Team-critical rules apply to every contributor without private setup.

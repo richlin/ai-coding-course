@@ -36,7 +36,7 @@
 - Do not delegate work while shared contracts remain undefined.
 - Do not call a task small because the prompt is short.
 
-## Try It
+## Exercise
 
 1. Choose a feature touching several behaviors or subsystems.
 2. List decisions, contracts, migrations, user flows, risks, and verification layers.
@@ -44,7 +44,7 @@
 4. Identify the largest coherent slice that fits one focused session.
 5. Define a stop signal for further decomposition.
 
-## Expected Result
+Complete the exercise when:
 
 - A size assessment based on cognitive and integration boundaries.
 - A first independently verifiable slice with clear ownership.

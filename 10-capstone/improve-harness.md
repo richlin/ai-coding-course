@@ -37,7 +37,7 @@
 - Do not measure success by instruction length.
 - Do not leave the new control ownerless.
 
-## Try It
+## Exercise
 
 1. Review capstone retries, corrections, review findings, permission prompts, and context failures.
 2. Select one recurring or high-impact issue and identify its earliest preventable point.
@@ -46,7 +46,7 @@
 5. Implement and run those cases.
 6. Record baseline, result, review date, and what old guidance it replaces.
 
-## Expected Result
+Complete the exercise when:
 
 - One tested harness improvement directly tied to capstone evidence.
 - A measurable evaluation plan prevents the harness from growing without proof.

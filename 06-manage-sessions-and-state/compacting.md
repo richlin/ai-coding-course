@@ -35,7 +35,7 @@
 - Do not preserve raw chronology instead of current state.
 - Do not continue immediately after auto-compact without checking recall.
 
-## Try It
+## Exercise
 
 1. Pause at the end of research or one implementation increment.
 2. Write ten bullets covering goal, constraints, decisions, files, changes, checks, failures, questions, and next action.
@@ -43,7 +43,7 @@
 4. Compare the generated summary with the ten bullets.
 5. Correct omissions, then ask the agent to predict the next check and expected result.
 
-## Expected Result
+Complete the exercise when:
 
 - A verified compacted summary that supports the next phase.
 - No rejected direction is mistaken for an active decision.

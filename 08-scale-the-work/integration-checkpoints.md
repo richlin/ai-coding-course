@@ -37,7 +37,7 @@
 - Do not continue accumulating changes after a failed checkpoint.
 - Do not omit migration and rollback behavior from integration.
 
-## Try It
+## Exercise
 
 1. Choose a decomposed feature with at least two parallel tickets.
 2. Place checkpoints after shared contract, first end-to-end slice, and release readiness.
@@ -45,7 +45,7 @@
 4. Run the earliest checkpoint as soon as prerequisites finish.
 5. Record evidence and block dependent work if it fails.
 
-## Expected Result
+Complete the exercise when:
 
 - Three evidence-based checkpoints connected to dependency boundaries.
 - Integration failures surface before all parallel work is complete.

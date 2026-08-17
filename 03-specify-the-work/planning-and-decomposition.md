@@ -37,7 +37,7 @@
 - Do not parallelize tasks that are still deciding a shared contract.
 - Do not continue planning after the next safe increment and check are clear.
 
-## Try It
+## Exercise
 
 1. Choose a feature touching at least two layers.
 2. Draw its dependency graph using components or contracts, not filenames alone.
@@ -46,7 +46,7 @@
 5. Split any task requiring more than one focused session or containing unrelated “and” clauses.
 6. Mark safe parallel work and an integration checkpoint.
 
-## Expected Result
+Complete the exercise when:
 
 - An ordered set of independently verifiable tasks with no hidden dependency.
 - Another engineer can select the next unblocked task without asking for the original conversation.

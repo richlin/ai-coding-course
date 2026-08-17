@@ -37,7 +37,7 @@
 - Do not include a proposed solution without the outcome it must satisfy.
 - Do not ask the agent to “explore” without a concrete anchor or question.
 
-## Try It
+## Exercise
 
 1. Choose a task that has a named behavior or failing check.
 2. Write no more than ten bullets covering goal, criteria, constraints, current state, anchor, relevant artifacts, known evidence, and first check.
@@ -46,7 +46,7 @@
 5. Give the brief to a fresh agent and ask for its first hypothesis and three files to inspect.
 6. Add context only if a missing fact blocks that decision.
 
-## Expected Result
+Complete the exercise when:
 
 - A brief short enough to scan in one minute.
 - A fresh agent identifies a plausible controlling path without requesting a repository dump.

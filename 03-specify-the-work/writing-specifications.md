@@ -35,7 +35,7 @@
 - Do not describe a bug without reproducible input and observed output.
 - Do not let the spec become stale after an approved requirement change.
 
-## Try It
+## Exercise
 
 1. Select a small feature or reproducible bug.
 2. Create sections for context, goal, non-goals, requirements, examples, acceptance criteria, and open questions.
@@ -44,7 +44,7 @@
 5. Ask a peer or fresh agent to produce a plan from only the spec and repository.
 6. Record and resolve ambiguities before implementation.
 
-## Expected Result
+Complete the exercise when:
 
 - A spec short enough to review in one sitting and complete enough to plan safely.
 - No blocking decision is left for the implementing agent to invent silently.
