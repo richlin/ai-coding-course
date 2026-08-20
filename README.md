@@ -46,7 +46,7 @@ This course explains how to use coding agents reliably, starting with the system
 
 ## 4. Specify and Plan the Work
 
-- [Explore the codebase before deciding](04-specify-and-plan-work/codebase-exploration.md)
+- [Create codebase navigation artifacts](04-specify-and-plan-work/codebase-exploration.md)
 - [Verify information against primary sources](04-specify-and-plan-work/primary-sources.md)
 - [Separate repository rules from task artifacts](04-specify-and-plan-work/repository-rules.md)
 - [State intent, assumptions, constraints, and non-goals](04-specify-and-plan-work/task-boundaries.md)
@@ -86,12 +86,3 @@ This course explains how to use coding agents reliably, starting with the system
 - [Build validation, observability, and feedback](07-design-the-team-harness/validation-and-feedback.md)
 - [Enforce standards in CI and ship safely](07-design-the-team-harness/ci-and-shipping.md)
 - [Feed lessons back into the harness](07-design-the-team-harness/continuous-improvement.md)
-
-## 8. Capstone: Deliver a Feature Reliably
-
-- [Specify a realistic feature](08-capstone/specify-feature.md)
-- [Assemble context and controls](08-capstone/assemble-context.md)
-- [Research, plan, implement, and verify](08-capstone/deliver-feature.md)
-- [Cross a session boundary or delegate a task](08-capstone/cross-boundaries.md)
-- [Review and hand off the work](08-capstone/review-and-handoff.md)
-- [Improve the project harness](08-capstone/improve-harness.md)
