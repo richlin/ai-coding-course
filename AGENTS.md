@@ -38,3 +38,7 @@ This repository is a self-guided course about using coding agents reliably, from
 - Check that every changed relative link resolves, including links added to `README.md`.
 - Review the final diff for accidental edits, repeated material, and claims that need a source.
 - This repository currently has no automated test or documentation build command; report manual checks performed instead of inventing one.
+
+
+## Plan with grilling
+When in plan mode or planning, use grilling skill by default
