@@ -22,13 +22,13 @@ This course explains how to use coding agents reliably, starting with the system
 
 ## 2. Configure the Agent Harness
 
-- [Write an effective task prompt](02-configure-agent-harness/task-prompts.md)
-- [AGENTS.md](02-configure-agent-harness/ground-rules.md)
-- [Write and test a skill](02-configure-agent-harness/writing-skills.md)
-- [Use commands, hooks, and scripts](02-configure-agent-harness/commands-hooks-and-scripts.md)
-- [Enforce coding standards with executable checks](02-configure-agent-harness/executable-standards.md)
-- [Prune stale or conflicting instructions](02-configure-agent-harness/pruning-instructions.md)
-- [Choose user-level or project-level configuration](02-configure-agent-harness/configuration-scope.md)
+- [Write an effective task prompt](02-configure-agent-harness/write-an-effective-task-prompt.md)
+- [Write a good `AGENTS.md`](02-configure-agent-harness/write-project-instructions.md)
+- [Write and test a skill](02-configure-agent-harness/write-and-test-a-skill.md)
+- [Use slash commands to control a session](02-configure-agent-harness/use-commands-for-repeatable-work.md)
+- [Use hooks for automatic checks](02-configure-agent-harness/use-hooks-for-automatic-checks.md)
+- [Write deterministic scripts](02-configure-agent-harness/write-deterministic-scripts.md)
+- [Choose user-level or project-level configuration](02-configure-agent-harness/choose-configuration-scope.md)
 
 ## 3. Manage Context and Sessions
 
@@ -62,6 +62,7 @@ This course explains how to use coding agents reliably, starting with the system
 - [Make small, reversible changes](05-implement-and-verify/reversible-changes.md)
 - [Use test-driven development](05-implement-and-verify/test-driven-development.md)
 - [Combine tests, types, linting, builds, and runtime checks](05-implement-and-verify/verification-hierarchy.md)
+- [Enforce coding standards with executable checks](05-implement-and-verify/enforce-coding-standards.md)
 - [Debug and recover systematically](05-implement-and-verify/debugging-and-recovery.md)
 - [Review changes, security boundaries, and escalation](05-implement-and-verify/review-security-escalation.md)
 
@@ -73,6 +74,7 @@ This course explains how to use coding agents reliably, starting with the system
 - [Manage dependencies, ownership, and integration order](06-scale-the-work/dependencies-and-ownership.md)
 - [Use subagents and parallel work](06-scale-the-work/subagents-and-parallel-work.md)
 - [Set integration checkpoints](06-scale-the-work/integration-checkpoints.md)
+- [Prune stale or conflicting instructions](06-scale-the-work/prune-instructions.md)
 
 ## 7. Design the Team Harness
 

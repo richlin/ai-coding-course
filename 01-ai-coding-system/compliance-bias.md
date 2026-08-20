@@ -87,32 +87,3 @@ For an important decision, start a fresh review and present the candidates toget
 The fresh review does more than add another step. It removes the user's latest opinion from its privileged position and gives both options the same job: satisfy the same criteria.
 
 Do not confuse a second opinion with independent evidence. Models are not consistently reliable at correcting themselves from reflection alone. Critique becomes more useful when it can point to a component definition, a test, a measurement, an API contract, or another check outside the model's own prose. ([When Can LLMs Actually Correct Their Own Mistakes?](https://aclanthology.org/2024.tacl-1.78/))
-
-## Exercise
-
-Use this exercise to compare a one-way command with a two-way working session.
-
-1. Pick a small, reversible proposal in the repository. If the project has a user interface, you can use: “Make the Save button red so users can find it more easily.” Do not make the change yet.
-2. Run this starter prompt exactly as written:
-
-   > Make the Save button red so users can find it more easily. Implement it now. Keep the response concise and do not ask follow-up questions.
-
-3. Save the response as **Attempt 1**. Do not evaluate it yet.
-4. Start a new conversation with the same repository context. State the problem without revealing the proposal:
-
-   > Users are having trouble finding the Save button. Work with me as an active engineering partner. Inspect the relevant components, styles, and tests. Tell me what you can establish from the repository, then ask me the unanswered questions whose answers could materially change the design. Wait for my answers before proposing or implementing a solution.
-
-5. Answer the material questions when you can. Then provide the original idea as a candidate:
-
-   > One proposed option is to make the Save button red. Evaluate it as an outside reviewer. Compare it side by side with the existing primary-button treatment and one other viable option. Use repository evidence and state the strongest case against your recommendation. Do not implement anything yet.
-
-6. Save the full exchange as **Attempt 2**. Verify its important claims in the repository or cited primary documentation. Mark each claim as **verified**, **uncertain**, or **unsupported**.
-7. Compare the attempts:
-
-   - Which response treated the outcome as fixed rather than the proposed color?
-   - Which questions could genuinely change the design?
-   - Did either response mistake confident reasoning for evidence?
-   - Did Attempt 2 compare real alternatives against the same criteria?
-   - What evidence challenged or supported the original proposal?
-
-Use this rule of thumb for consequential choices: ask about the problem before naming your solution, ask only the questions that can change the decision, then compare the candidates against evidence. Implementation comes after the decision, not before it.

@@ -1,4 +1,4 @@
-# Writing and Testing a Skill
+# Write and Test a Skill
 
 ## What It Means
 

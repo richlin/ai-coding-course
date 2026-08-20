@@ -1,6 +1,6 @@
 # Scaling Ground Rules and Specifications Across a Team
 
-The [introduction to `AGENTS.md`](../02-configure-agent-harness/ground-rules.md) explains how an individual engineer establishes working conventions with an agent. This chapter scales that practice across a team, where instruction files need shared ownership, consistent scope, and enforceable boundaries.
+The [introduction to `AGENTS.md`](../02-configure-agent-harness/write-project-instructions.md) explains how an individual engineer establishes working conventions with an agent. This chapter scales that practice across a team, where instruction files need shared ownership, consistent scope, and enforceable boundaries.
 
 ## What It Means
 
