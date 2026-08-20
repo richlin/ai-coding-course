@@ -1,4 +1,4 @@
-# `AGENTS.md`: Project Ground Rules
+# Write a good `AGENTS.md`
 
 By the end of this chapter, you will be able to write a short `AGENTS.md`, place rules at the right scope, and keep task-specific details out of always-loaded context.
 
@@ -37,28 +37,6 @@ This repository contains the web app and API for a team notification product.
 - After changing a package, run its tests and type check.
 - Report any repository check you could not run.
 ```
-
-Each line should resolve a real decision. “Write clean code” does not explain what to do. “After changing package X, run command Y” does.
-
-Verification belongs here only when it is a stable project rule. “Run the affected package's type check” applies across tasks. “The checkout page handles expired cards” is a feature acceptance criterion and belongs in its issue or specification—not in `AGENTS.md`.
-
-## Use Three Levels
-
-Place each rule at the narrowest scope where it remains useful:
-
-```text
-~/.codex/AGENTS.md                         personal defaults
-work/acme/AGENTS.md                        repository rules
-work/acme/services/payments/AGENTS.md      payments-only rules
-```
-
-| Level | Put here | Keep out |
-|---|---|---|
-| Personal | Preferences that follow you across repositories. | Team rules, repository commands, and credentials. |
-| Repository | Project purpose, shared commands, boundaries, approvals, and verification. | Package-only rules and long documentation. |
-| Subtree | Commands, invariants, and boundaries unique to one package or service. | Repeated root rules and full design documents. |
-
-A monorepo root should explain the shared project, not every package. Put payment rules in `services/payments/AGENTS.md` so unrelated work does not carry them. Large repositories can repeat the subtree level as deeply as needed.
 
 ## Keep It Short
 
@@ -118,14 +96,23 @@ Add a rule when it prevents a repeated or expensive mistake. When the file appro
 
 Test changes in a fresh session from the directory where they should apply. Ask the agent which instruction files it loaded, give it a representative task, and check an observable action: the command it chose, the file it avoided, or the approval it requested.
 
-## Exercise
+## Use Three Levels
 
-1. Write a one-sentence project description.
-2. Sort candidate rules into personal, repository, and subtree scope.
-3. Add only non-standard commands, important boundaries, verification, and approval points.
-4. Use 100–150 lines as the ceiling; split or prune the file when it grows beyond that range.
-5. Start a fresh session and verify which instruction files load.
-6. Give the agent a small task and check whether each rule changes an observable action.
+Place each rule at the narrowest scope where it remains useful:
+
+```text
+~/.codex/AGENTS.md                         personal defaults
+work/acme/AGENTS.md                        repository rules
+work/acme/services/payments/AGENTS.md      payments-only rules
+```
+
+| Level | Put here | Keep out |
+|---|---|---|
+| Personal | Preferences that follow you across repositories. | Team rules, repository commands, and credentials. |
+| Repository | Project purpose, shared commands, boundaries, approvals, and verification. | Package-only rules and long documentation. |
+| Subtree | Commands, invariants, and boundaries unique to one package or service. | Repeated root rules and full design documents. |
+
+A monorepo root should explain the shared project, not every package. Put payment rules in `services/payments/AGENTS.md` so unrelated work does not carry them. Large repositories can repeat the subtree level as deeply as needed.
 
 ## References
 
@@ -133,3 +120,7 @@ Test changes in a fresh session from the directory where they should apply. Ask 
 - [OpenAI Codex: Custom instructions with `AGENTS.md`](https://developers.openai.com/codex/guides/agents-md) — discovery, scope, precedence, and overrides.
 - [Claude Code: How Claude remembers your project](https://code.claude.com/docs/en/memory) — `CLAUDE.md` loading and importing `AGENTS.md`.
 - [GitHub Copilot: Custom instructions support](https://docs.github.com/en/copilot/reference/custom-instructions-support) — supported instruction files by Copilot surface.
+- [Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?](https://arxiv.org/abs/2602.11988) — measured effect of context files on task success and cost.
+- [On the Impact of AGENTS.md Files on the Efficiency of AI Coding Agents](https://arxiv.org/abs/2601.20404) — paired with-and-without experiment on runtime and token use.
+- [Instruction Adherence in Coding Agent Configuration Files](https://arxiv.org/abs/2605.10039) — factorial study of file size, position, architecture, and conflicts.
+- [IFScale: Instruction Following at Scale](https://distylai.github.io/IFScale/) — adherence decay as instruction count grows.

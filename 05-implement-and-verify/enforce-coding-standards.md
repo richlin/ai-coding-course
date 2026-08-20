@@ -1,4 +1,4 @@
-# Enforcing Coding Standards with Executable Checks
+# Enforce Coding Standards with Executable Checks
 
 ## What It Means
 

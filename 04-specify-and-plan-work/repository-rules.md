@@ -1,6 +1,6 @@
 # Repository Rules and Durable Artifacts
 
-The [`AGENTS.md` introduction](../02-configure-agent-harness/ground-rules.md) explains how a harness loads a repository's standing brief. This chapter places that brief alongside the other durable artifacts an agent needs while it works.
+The [`AGENTS.md` introduction](../02-configure-agent-harness/write-project-instructions.md) explains how a harness loads a repository's standing brief. This chapter places that brief alongside the other durable artifacts an agent needs while it works.
 
 ## What It Means
 

@@ -51,7 +51,7 @@ The six components below form a control loop. Rules define the intended result, 
 
 Ground rules describe how the agent should work across tasks. Specifications describe what this task must accomplish. Together they give the model goals, constraints, standards, acceptance criteria, and any required execution order.
 
-For the rate-limiting task, the specification might say: limit failed logins to five attempts per user and IP address within ten minutes, return HTTP `429` when the limit is exceeded, and add no new dependency. A repository-level [`AGENTS.md`](../02-configure-agent-harness/ground-rules.md) might separately require focused tests after any authentication change.
+For the rate-limiting task, the specification might say: limit failed logins to five attempts per user and IP address within ten minutes, return HTTP `429` when the limit is exceeded, and add no new dependency. A repository-level [`AGENTS.md`](../02-configure-agent-harness/write-project-instructions.md) might separately require focused tests after any authentication change.
 
 Without those constraints, an implementation can be tidy and still solve the wrong problem. More reasoning cannot recover a requirement that nobody stated.
 

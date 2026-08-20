@@ -1,4 +1,4 @@
-# Pruning Stale or Conflicting Instructions
+# Prune Stale or Conflicting Instructions
 
 ## What It Means
 
